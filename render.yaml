@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: uptime kuma
+    name: uptime-kuma
     env: docker
     repo: https://github.com/Guangsudalao/uptime-kuma-render.git
     region: Singapore
