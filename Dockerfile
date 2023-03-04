@@ -1,1 +1,1 @@
-FROM debian:stable-slim
+FROM louislam/uptime-kuma
