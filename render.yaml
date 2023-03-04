@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: uptime kuma
+    env: docker
+    repo: https://github.com/Guangsudalao/uptime-kuma-render.git
+    region: Singapore
+    plan: free
+    healthCheckPath: /
+    envVars:
+    - key: PORT
+      value: 3001
